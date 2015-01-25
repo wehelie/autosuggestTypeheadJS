@@ -1,0 +1,75 @@
+body {
+	text-align: center;
+	margin: 0 auto;
+	width: 600px;
+	padding:0;
+	background: l;
+
+}
+
+
+
+body,html {
+	
+	font: 1em 'Arial', sans-serif;
+	
+
+}
+
+h1 {
+	margin-top: 100px; 
+	text-transform: uppercase;
+}
+
+.lead {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+input {
+	font: inherit;
+	margin-top: 60px;
+}
+
+input[type="submit"] {
+	border: 1px solid #bbb;
+	background: white;
+	padding: 5px 10px;
+	vertical-align: bottom;
+	font-weight: 100;
+}
+
+input[type="text"] {
+	padding: 5px 10px;
+	border: 1px solid #bbb;
+
+}
+
+.tt-input {
+	outline: none;
+}
+
+.tt-dropdown-menu {
+	width: calc(100% - 2px);
+	border: 1px solid #bbb;
+	border-top: 0; 
+	padding:0;
+	font-weight: 100;
+	text-align: left;
+}
+
+.tt-suggestion {
+	padding: 5px 10px;
+	margin:0;
+	cursor: pointer;
+}
+
+.tt-suggestion p {
+	margin: 5px 0;
+}
+.tt-suggestion.tt-cursor {
+	background-color: #ddd;
+}
+.tt-hint {
+	color: #bbb;
+}
